@@ -31,7 +31,7 @@ export default function App() {
 
           <div className="actions">
             <a href="#projects" className="btn primary">View Projects</a>
-            <a href="/Tejaswini_Resume.pdf" className="btn">Resume</a>
+            <a href="/Tejaswini_Resume.pdf" download className="btn">Resume</a>
             <a href="https://github.com/Tejaswini37" className="btn">GitHub</a>
             <a href="https://www.linkedin.com/in/modugu-tejaswini-reddy-0b1733284/" className="btn">LinkedIn</a>
             <a href="https://leetcode.com/u/Tejaswini37/" className="btn">LeetCode</a>
