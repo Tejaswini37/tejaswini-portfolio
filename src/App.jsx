@@ -91,54 +91,90 @@ export default function App() {
 </section>
 
 
-      {/* SKILLS */}
-      <section id="skills" className="section reveal">
-        <h2 className="section-title">Technical Skills</h2>
+      {/* SKILLS & COURSEWORK */}
+<section id="skills" className="section reveal">
+  <h2 className="section-title">Technical Skills & Coursework</h2>
 
-        <div className="card">
-          <h3>Frontend</h3>
-          <div className="chips">
-            <span className="chip">HTML</span>
-            <span className="chip">CSS</span>
-            <span className="chip">React.js</span>
-            <span className="chip">JavaScript</span>
-          </div>
-        </div>
+  <div className="card">
+    <h3>Programming Languages</h3>
+    <div className="chips">
+      <span className="chip">Java</span>
+      <span className="chip">Python</span>
+      <span className="chip">C++</span>
+      <span className="chip">JavaScript</span>
+      <span className="chip">SQL</span>
+    </div>
+  </div>
 
-        <div className="card">
-          <h3>Backend</h3>
-          <div className="chips">
-            <span className="chip">Node.js</span>
-            <span className="chip">Express.js</span>
-            <span className="chip">Flask</span>
-            <span className="chip">Spring Boot</span>
-          </div>
-        </div>
+  <div className="card">
+    <h3>Web Technologies</h3>
+    <div className="chips">
+      <span className="chip">HTML</span>
+      <span className="chip">CSS</span>
+      <span className="chip">React.js</span>
+      <span className="chip">Node.js</span>
+      <span className="chip">Express.js</span>
+      <span className="chip">Flask</span>
+      <span className="chip">REST APIs</span>
+    </div>
+  </div>
 
-        <div className="card">
-          <h3>AI / ML</h3>
-          <div className="chips">
-            <span className="chip">CNN</span>
-            <span className="chip">LSTM</span>
-            <span className="chip">Word2Vec</span>
-            <span className="chip">NLP</span>
-            <span className="chip">NumPy</span>
-            <span className="chip">pandas</span>
-          </div>
-        </div>
+  <div className="card">
+    <h3>Databases</h3>
+    <div className="chips">
+      <span className="chip">MySQL</span>
+      <span className="chip">MongoDB</span>
+    </div>
+  </div>
 
-        <div className="card">
-          <h3>Databases & Tools</h3>
-          <div className="chips">
-            <span className="chip">MySQL</span>
-            <span className="chip">MongoDB</span>
-            <span className="chip">Git</span>
-            <span className="chip">GitHub</span>
-            <span className="chip">VS Code</span>
-            <span className="chip">Postman</span>
-          </div>
-        </div>
-      </section>
+  <div className="card">
+    <h3>Machine Learning</h3>
+    <div className="chips">
+      <span className="chip">CNN</span>
+      <span className="chip">LSTM</span>
+      <span className="chip">Word2Vec</span>
+      <span className="chip">NLP</span>
+      <span className="chip">NumPy</span>
+      <span className="chip">pandas</span>
+    </div>
+  </div>
+
+  <div className="card">
+    <h3>Tools & Platforms</h3>
+    <div className="chips">
+      <span className="chip">Git</span>
+      <span className="chip">GitHub</span>
+      <span className="chip">VS Code</span>
+      <span className="chip">Postman</span>
+      <span className="chip">PyCharm</span>
+      <span className="chip">Eclipse</span>
+    </div>
+  </div>
+
+  <div className="card">
+    <h3>Core Concepts</h3>
+    <div className="chips">
+      <span className="chip">OOP</span>
+      <span className="chip">Data Structures</span>
+      <span className="chip">Algorithms</span>
+      <span className="chip">Problem Solving</span>
+    </div>
+  </div>
+
+  <div className="card">
+    <h3>Relevant Coursework</h3>
+    <ul className="achievement-list">
+      <li>Data Structures & Algorithms</li>
+      <li>Operating Systems</li>
+      <li>Database Management Systems (DBMS)</li>
+      <li>Computer Networks</li>
+      <li>Machine Learning</li>
+      <li>Deep Learning</li>
+      <li>Natural Language Processing (NLP)</li>
+      <li>Web Development</li>
+    </ul>
+  </div>
+</section>
 
      {/* PROJECTS */}
 <section id="projects" className="section reveal">
