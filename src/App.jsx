@@ -86,7 +86,7 @@ export default function App() {
 
   <div className="hero-buttons">
     <a href="#projects" className="btn primary">View Projects</a>
-    <a href="/Tejaswini_Resume.pdf" target="_blank" rel="noopener noreferrer" className="btn secondary">Resume</a>
+    <a href="/Tejaswini_Modugu.pdf" target="_blank" rel="noopener noreferrer" className="btn secondary">Resume</a>
   </div>
 </section>
 
